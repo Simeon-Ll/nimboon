@@ -1,9 +1,9 @@
 import React from 'react'
-import image1 from '../assets/Nimboon screen 1.png'
-import image2 from '../assets/Nimboon screen 2.png'
-import image3 from '../assets/Nimboon screen 3.png'
-import image4 from '../assets/Nimboon screen 4.png'
-import image5 from '../assets/Nimboon screen 5.png'
+import image1 from '../assets/Nimboon screen 5.png'
+import image2 from '../assets/Nimboon screen 1.png'
+import image3 from '../assets/Nimboon screen 2.png'
+import image4 from '../assets/Nimboon screen 3.png'
+import image5 from '../assets/Nimboon screen 4.png'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
@@ -26,7 +26,7 @@ function imageSlider() {
     <div className='px-14 bg-primary'>
       <Slider {...settings} >
         {images.map(img => (
-            <img src={img} key={img} alt="" style={{width: '33.33%'}} />
+            <img src={img} key={img} alt="" className='w-1/3' />
         ))}
       </Slider>
 
