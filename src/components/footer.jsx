@@ -2,12 +2,13 @@ import React from 'react'
 import facebook from '../assets/logo-facebook.svg'
 import twitter from '../assets/logo-twitter.svg'
 import instagram from '../assets/logo-instagram.svg'
+import logo from '../assets/Logo.png'
 
 
 function footer() {
   return (
     <footer className='bg-primary flex flex-col items-center py-10 text-white'>
-      <a href='###' className='italic font-bold text-2xl md:text-xl'>Nimboon</a>
+      <a href='###'><img src={logo} alt="" className='w-40' /></a>
 
       <div className='flex gap-5 md:gap-3 py-3'>
         <a href="###"><img src={facebook} alt="" className='w-10 md:w-7' /></a>

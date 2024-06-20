@@ -1,7 +1,7 @@
 import coin from './assets/coin.png'
 import compass from './assets/compass.png'
 import friends from './assets/friends.png'
-import giftbox from './assets/gift-box.png'
+import giftbox from './assets/gift-box(1).png'
 import megaphone from './assets/megaphone.png'
 import moneybag from './assets/moneybag.png'
 
