@@ -8,7 +8,7 @@ export default {
     extend: {
       colors:{
         'primary' : '#ED6E5C',
-        'greyish-green': '#40557C'
+        'greyish-green': '#00767D'
       },
       screens:{
         'md': {'max': '767px'},
